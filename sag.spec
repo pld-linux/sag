@@ -5,13 +5,13 @@ Summary(pl):	Podrêcznik Administratora Systemu LDP
 Summary(tr):	DP Sistem Yöneticisi Kýlavuzu
 Name:		sag
 Version:	0.5
-Release:	3
+Release:	4
 Group:		Documentation
 Group(pl):	Dokumentacja
 Source:		http://sunsite.unc.edu/LDP/sag-0.5.html.tar.gz
 Copyright:	distributable
 BuildArch:	noarch
-Buildroot:	/tmp/buildroot-%{name}-%{version}
+Buildroot:	/tmp/%{name}-%{version}-root
 
 %description
 This is a generic guide to the System Administration of Linux systems.
@@ -55,10 +55,14 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644, root, root, 755)
 
-%dir /usr/doc/LDP/sag
-/usr/doc/LDP/sag/*
+/usr/doc/LDP/sag
 
 %changelog
+* Mon Feb  8 1999 Micha³ Kuratczyk <kurkens@polbox.com>
+  [0.5-4]
+- sloted BuildRoot into PLD standard
+- simplification in %files
+
 * Sat Feb  6 1999 Micha³ Kuratczyk <kurkens@polbox.com>
   [0.5-3]
 - added pl translations
