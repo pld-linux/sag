@@ -1,6 +1,6 @@
 Summary:	LDP System Administrator's Guide
 Summary(fr):	Guide de l'administrateur système du LDP
-Summary(de):	LDP-System-Administrator-Handbuch 
+Summary(de):	LDP-System-Administrator-Handbuch
 Summary(pl):	Podrêcznik Administratora Systemu LDP
 Summary(tr):	DP Sistem Yöneticisi Kýlavuzu
 Name:		sag
