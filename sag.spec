@@ -43,7 +43,6 @@ Bu paket, Linux'da sistem yöneticiliðini anlatan rehberi içerir. LDP
 deðiþiklikleri için http://www.linuxdoc.org/ sayfasýna bakýnýz.
 
 %prep
-#%setup -q -n %{name}-%{version}.html
 %setup -q -n %{name}
 
 %install
