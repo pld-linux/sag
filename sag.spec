@@ -8,10 +8,9 @@ Version:	0.7
 Release:	1
 License:	distributable
 Group:		Documentation
-Source0:	http://www.linuxdoc.org/LDP/%{name}.html.tar.gz
-# Source0-md5:	741c26809faec341686d935bace42b42
-#Source0:	http://www.linuxdoc.org/LDP/%{name}-%{version}.html.tar.gz
-URL:		http://www.linuxdoc.org/LDP/sag/
+Source0:	http://www.tldp.org/LDP/%{name}.html.tar.gz
+# Source0-md5:	53d5b8845f7f078bd410a1b0fe6bc1e1
+URL:		http://www.tldp.org/LDP/sag/
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
