@@ -53,7 +53,7 @@ cp -ar * $RPM_BUILD_ROOT/usr/doc/LDP/sag
 rm -rf $RPM_BUILD_ROOT
 
 %files
-%defattr(644, root, root, 755)
+%defattr(644,root,root,755)
 
 /usr/doc/LDP/sag
 
