@@ -7,16 +7,18 @@ Name:		sag
 Version:	0.6.1
 Release:	1
 Group:		Documentation
+Group(de):	Dokumentation
+Group(es):	Documentación
 Group(pl):	Dokumentacja
-Source:		http://sunsite.unc.edu/LDP/sag.html.tar.gz
+Source0:	http://sunsite.unc.edu/LDP/%{name}.html.tar.gz
 Copyright:	distributable
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This is a generic guide to the System Administration of Linux systems.
-Check http://sunsite.unc.edu/LDP for more information about the
-Linux Documentation Project, and possible updates to this version.
+Check http://sunsite.unc.edu/LDP for more information about the Linux
+Documentation Project, and possible updates to this version.
 
 %description -l fr
 Guide générique pour l'administration système sous Linux. Consultez
@@ -25,18 +27,20 @@ Documentation Linux, et les éventuelles mises à jour de cette version.
 
 %description -l de
 Eine allgemeine Führung durch die Systemadministration von Linux-
-Systemen. Für weitere Infos zum Linux Dokumentationsprojekt und für 
-mögliche Updates zu dieser Version besuchen Sie http://sunsite.unc.edu/LDP.
+Systemen. Für weitere Infos zum Linux Dokumentationsprojekt und für
+mögliche Updates zu dieser Version besuchen Sie
+http://sunsite.unc.edu/LDP.
 
 %description -l pl
-To jest ogólny przewodnik Administratora Systemu Linux. Wiêcej informacji
-na temat Projektu Dokumentacji Linuxa (LDP) oraz uaktualnienia tego dokumentu
-mo¿esz znale¼æ pod adresem http://sunsite.unc.edu/LDP.
+To jest ogólny przewodnik Administratora Systemu Linux. Wiêcej
+informacji na temat Projektu Dokumentacji Linuxa (LDP) oraz
+uaktualnienia tego dokumentu mo¿esz znale¼æ pod adresem
+http://sunsite.unc.edu/LDP.
 
 %description -l tr
-Bu paket, Linux'da sistem yöneticiliðini anlatan rehberi içerir. LDP (Linux
-Documentation Project) hakkýnda daha fazla bilgi ve olasý sürüm deðiþiklikleri
-için http://sunsite.unc.edu/LDP sayfasýna bakýnýz.
+Bu paket, Linux'da sistem yöneticiliðini anlatan rehberi içerir. LDP
+(Linux Documentation Project) hakkýnda daha fazla bilgi ve olasý sürüm
+deðiþiklikleri için http://sunsite.unc.edu/LDP sayfasýna bakýnýz.
 
 %prep
 %setup -q -n %{name}-%{version}.html
