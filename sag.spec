@@ -9,6 +9,7 @@ Release:	1
 License:	distributable
 Group:		Documentation
 Source0:	http://www.linuxdoc.org/LDP/%{name}.html.tar.gz
+# Source0-md5:	741c26809faec341686d935bace42b42
 #Source0:	http://www.linuxdoc.org/LDP/%{name}-%{version}.html.tar.gz
 URL:		http://www.linuxdoc.org/LDP/sag/
 BuildArch:	noarch
