@@ -11,7 +11,7 @@ Group(pl):	Dokumentacja
 Source:		http://sunsite.unc.edu/LDP/sag.html.tar.gz
 Copyright:	distributable
 BuildArch:	noarch
-Buildroot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This is a generic guide to the System Administration of Linux systems.
