@@ -8,7 +8,7 @@ Version:	0.7
 Release:	1
 License:	distributable
 Group:		Documentation
-Source0:	http://sunsite.unc.edu/LDP/%{name}.html.tar.gz
+Source0:	http://www.linuxdoc.org/LDP/%{name}.html.tar.gz
 #Source0:	http://www.linuxdoc.org/LDP/%{name}-%{version}.html.tar.gz
 URL:		http://www.linuxdoc.org/LDP/sag/
 BuildArch:	noarch
