@@ -32,7 +32,7 @@ http://www.linuxdoc.org/ .
 
 %description -l pl
 To jest ogólny przewodnik Administratora Systemu Linux. Wiêcej
-informacji na temat Projektu Dokumentacji Linuxa (LDP) oraz
+informacji na temat Projektu Dokumentacji Linuksa (LDP) oraz
 uaktualnienia tego dokumentu mo¿esz znale¼æ pod adresem
 http://www.linuxdoc.org/ .
 
