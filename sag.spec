@@ -4,11 +4,11 @@ Summary(de):	LDP-System-Administrator-Handbuch
 Summary(pl):	Podrêcznik Administratora Systemu LDP
 Summary(tr):	DP Sistem Yöneticisi Kýlavuzu
 Name:		sag
-Version:	0.5
-Release:	4
+Version:	0.6.1
+Release:	1
 Group:		Documentation
 Group(pl):	Dokumentacja
-Source:		http://sunsite.unc.edu/LDP/sag-0.5.html.tar.gz
+Source:		http://sunsite.unc.edu/LDP/sag.html.tar.gz
 Copyright:	distributable
 BuildArch:	noarch
 Buildroot:	/tmp/%{name}-%{version}-root
@@ -39,20 +39,19 @@ Documentation Project) hakkýnda daha fazla bilgi ve olasý sürüm deðiþiklikleri
 için http://sunsite.unc.edu/LDP sayfasýna bakýnýz.
 
 %prep
-%setup -q
+%setup -q -n %{name}-%{version}.html
 
 %build
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT/usr/doc/LDP/sag
+install -d $RPM_BUILD_ROOT%{_docdir}/LDP/sag
 
-cp -ar * $RPM_BUILD_ROOT/usr/doc/LDP/sag
+cp -ar * $RPM_BUILD_ROOT%{_docdir}/LDP/sag
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-
-/usr/doc/LDP/sag
+%{_docdir}/LDP/sag
