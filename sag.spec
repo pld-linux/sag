@@ -6,46 +6,46 @@ Summary(tr):	DP Sistem Yöneticisi Kýlavuzu
 Name:		sag
 Version:	0.6.1
 Release:	1
+License:	distributable
 Group:		Documentation
 Group(de):	Dokumentation
 Group(es):	Documentación
 Group(pl):	Dokumentacja
 Source0:	http://sunsite.unc.edu/LDP/%{name}.html.tar.gz
-Copyright:	distributable
+#Source0:	http://www.linuxdoc.org/LDP/%{name}-%{version}.html.tar.gz
+URL:		http://www.linuxdoc.org/LDP/sag/
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This is a generic guide to the System Administration of Linux systems.
-Check http://sunsite.unc.edu/LDP for more information about the Linux
+Check http://www.linuxdoc.org/ for more information about the Linux
 Documentation Project, and possible updates to this version.
 
 %description -l fr
 Guide générique pour l'administration système sous Linux. Consultez
-http://sunsite.unc.edu/LDP pour plus d'informations sur le Projet de
+http://www.linuxdoc.org/ pour plus d'informations sur le Projet de
 Documentation Linux, et les éventuelles mises à jour de cette version.
 
 %description -l de
 Eine allgemeine Führung durch die Systemadministration von Linux-
 Systemen. Für weitere Infos zum Linux Dokumentationsprojekt und für
 mögliche Updates zu dieser Version besuchen Sie
-http://sunsite.unc.edu/LDP.
+http://www.linuxdoc.org/ .
 
 %description -l pl
 To jest ogólny przewodnik Administratora Systemu Linux. Wiêcej
 informacji na temat Projektu Dokumentacji Linuxa (LDP) oraz
 uaktualnienia tego dokumentu mo¿esz znale¼æ pod adresem
-http://sunsite.unc.edu/LDP.
+http://www.linuxdoc.org/ .
 
 %description -l tr
 Bu paket, Linux'da sistem yöneticiliðini anlatan rehberi içerir. LDP
 (Linux Documentation Project) hakkýnda daha fazla bilgi ve olasý sürüm
-deðiþiklikleri için http://sunsite.unc.edu/LDP sayfasýna bakýnýz.
+deðiþiklikleri için http://www.linuxdoc.org/ sayfasýna bakýnýz.
 
 %prep
 %setup -q -n %{name}-%{version}.html
-
-%build
 
 %install
 rm -rf $RPM_BUILD_ROOT
