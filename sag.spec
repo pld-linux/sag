@@ -4,7 +4,7 @@ Summary(de):	LDP-System-Administrator-Handbuch
 Summary(pl):	Podrêcznik Administratora Systemu LDP
 Summary(tr):	DP Sistem Yöneticisi Kýlavuzu
 Name:		sag
-Version:	0.6.1
+Version:	0.7
 Release:	1
 License:	distributable
 Group:		Documentation
@@ -42,7 +42,8 @@ Bu paket, Linux'da sistem yöneticiliðini anlatan rehberi içerir. LDP
 deðiþiklikleri için http://www.linuxdoc.org/ sayfasýna bakýnýz.
 
 %prep
-%setup -q -n %{name}-%{version}.html
+#%setup -q -n %{name}-%{version}.html
+%setup -q -n %{name}
 
 %install
 rm -rf $RPM_BUILD_ROOT
