@@ -28,13 +28,13 @@ Documentation Linux, et les éventuelles mises à jour de cette version.
 Eine allgemeine Führung durch die Systemadministration von Linux-
 Systemen. Für weitere Infos zum Linux Dokumentationsprojekt und für
 mögliche Updates zu dieser Version besuchen Sie
-http://www.linuxdoc.org/ .
+<http://www.linuxdoc.org/>.
 
 %description -l pl
 To jest ogólny przewodnik Administratora Systemu Linux. Wiêcej
 informacji na temat Projektu Dokumentacji Linuksa (LDP) oraz
 uaktualnienia tego dokumentu mo¿esz znale¼æ pod adresem
-http://www.linuxdoc.org/ .
+<http://www.linuxdoc.org/>.
 
 %description -l tr
 Bu paket, Linux'da sistem yöneticiliðini anlatan rehberi içerir. LDP
