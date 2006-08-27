@@ -6,7 +6,7 @@ Summary(tr):	DP Sistem Yöneticisi Kýlavuzu
 Name:		sag
 Version:	0.9
 Release:	1
-License:	distributable
+License:	GFDL
 Group:		Documentation
 Source0:	http://www.tldp.org/LDP/sag/%{name}.html.tar.gz
 # Source0-md5:	50bd18473819ccac5264955683cea1ab
@@ -16,30 +16,30 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This is a generic guide to the System Administration of Linux systems.
-Check http://www.linuxdoc.org/ for more information about the Linux
+Check http://www.tldp.org/ for more information about the Linux
 Documentation Project, and possible updates to this version.
 
 %description -l fr
 Guide générique pour l'administration système sous Linux. Consultez
-http://www.linuxdoc.org/ pour plus d'informations sur le Projet de
+http://www.tldp.org/ pour plus d'informations sur le Projet de
 Documentation Linux, et les éventuelles mises à jour de cette version.
 
 %description -l de
 Eine allgemeine Führung durch die Systemadministration von Linux-
 Systemen. Für weitere Infos zum Linux Dokumentationsprojekt und für
 mögliche Updates zu dieser Version besuchen Sie
-<http://www.linuxdoc.org/>.
+<http://www.tldp.org/>.
 
 %description -l pl
 To jest ogólny przewodnik Administratora Systemu Linux. Wiêcej
 informacji na temat Projektu Dokumentacji Linuksa (LDP) oraz
 uaktualnienia tego dokumentu mo¿esz znale¼æ pod adresem
-<http://www.linuxdoc.org/>.
+<http://www.tldp.org/>.
 
 %description -l tr
 Bu paket, Linux'da sistem yöneticiliðini anlatan rehberi içerir. LDP
 (Linux Documentation Project) hakkýnda daha fazla bilgi ve olasý sürüm
-deðiþiklikleri için http://www.linuxdoc.org/ sayfasýna bakýnýz.
+deðiþiklikleri için http://www.tldp.org/ sayfasýna bakýnýz.
 
 %prep
 %setup -q -n %{name}
