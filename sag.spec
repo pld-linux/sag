@@ -4,12 +4,12 @@ Summary(de):	LDP-System-Administrator-Handbuch
 Summary(pl):	Podrêcznik Administratora Systemu LDP
 Summary(tr):	DP Sistem Yöneticisi Kýlavuzu
 Name:		sag
-Version:	0.7
-Release:	2
+Version:	0.9
+Release:	1
 License:	distributable
 Group:		Documentation
-Source0:	http://www.tldp.org/LDP/%{name}.html.tar.gz
-# Source0-md5:	53d5b8845f7f078bd410a1b0fe6bc1e1
+Source0:	http://www.tldp.org/LDP/sag/%{name}.html.tar.gz
+# Source0-md5:	50bd18473819ccac5264955683cea1ab
 URL:		http://www.tldp.org/LDP/sag/
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
