@@ -1,16 +1,17 @@
 Summary:	LDP System Administrator's Guide
-Summary(fr):	Guide de l'administrateur système du LDP
 Summary(de):	LDP-System-Administrator-Handbuch
+Summary(fr):	Guide de l'administrateur système du LDP
 Summary(pl):	Podrêcznik Administratora Systemu LDP
 Summary(tr):	DP Sistem Yöneticisi Kýlavuzu
 Name:		sag
 Version:	0.9
-Release:	1
+Release:	2
 License:	GFDL
 Group:		Documentation
 Source0:	http://www.tldp.org/LDP/sag/%{name}.html.tar.gz
 # Source0-md5:	50bd18473819ccac5264955683cea1ab
 URL:		http://www.tldp.org/LDP/sag/
+Requires:	LDP-base
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -47,8 +48,7 @@ deðiþiklikleri için http://www.tldp.org/ sayfasýna bakýnýz.
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_docdir}/LDP/sag
-
-cp -ar * $RPM_BUILD_ROOT%{_docdir}/LDP/sag
+cp -a * $RPM_BUILD_ROOT%{_docdir}/LDP/sag
 
 %clean
 rm -rf $RPM_BUILD_ROOT
