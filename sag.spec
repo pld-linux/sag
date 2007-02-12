@@ -1,8 +1,8 @@
 Summary:	LDP System Administrator's Guide
-Summary(de):	LDP-System-Administrator-Handbuch
-Summary(fr):	Guide de l'administrateur système du LDP
-Summary(pl):	Podrêcznik Administratora Systemu LDP
-Summary(tr):	DP Sistem Yöneticisi Kılavuzu
+Summary(de.UTF-8):   LDP-System-Administrator-Handbuch
+Summary(fr.UTF-8):   Guide de l'administrateur systÃ¨me du LDP
+Summary(pl.UTF-8):   PodrÄ™cznik Administratora Systemu LDP
+Summary(tr.UTF-8):   DP Sistem YÃ¶neticisi KÄ±lavuzu
 Name:		sag
 Version:	0.9
 Release:	2
@@ -20,27 +20,27 @@ This is a generic guide to the System Administration of Linux systems.
 Check http://www.tldp.org/ for more information about the Linux
 Documentation Project, and possible updates to this version.
 
-%description -l fr
-Guide générique pour l'administration système sous Linux. Consultez
+%description -l fr.UTF-8
+Guide gÃ©nÃ©rique pour l'administration systÃ¨me sous Linux. Consultez
 http://www.tldp.org/ pour plus d'informations sur le Projet de
-Documentation Linux, et les éventuelles mises à jour de cette version.
+Documentation Linux, et les Ã©ventuelles mises Ã  jour de cette version.
 
-%description -l de
-Eine allgemeine Führung durch die Systemadministration von Linux-
-Systemen. Für weitere Infos zum Linux Dokumentationsprojekt und für
-mögliche Updates zu dieser Version besuchen Sie
+%description -l de.UTF-8
+Eine allgemeine FÃ¼hrung durch die Systemadministration von Linux-
+Systemen. FÃ¼r weitere Infos zum Linux Dokumentationsprojekt und fÃ¼r
+mÃ¶gliche Updates zu dieser Version besuchen Sie
 <http://www.tldp.org/>.
 
-%description -l pl
-To jest ogólny przewodnik Administratora Systemu Linux. Wiêcej
+%description -l pl.UTF-8
+To jest ogÃ³lny przewodnik Administratora Systemu Linux. WiÄ™cej
 informacji na temat Projektu Dokumentacji Linuksa (LDP) oraz
-uaktualnienia tego dokumentu mo¿esz znale¼æ pod adresem
+uaktualnienia tego dokumentu moÅ¼esz znaleÅºÄ‡ pod adresem
 <http://www.tldp.org/>.
 
-%description -l tr
-Bu paket, Linux'da sistem yöneticiliğini anlatan rehberi içerir. LDP
-(Linux Documentation Project) hakkında daha fazla bilgi ve olası sürüm
-değişiklikleri için http://www.tldp.org/ sayfasına bakınız.
+%description -l tr.UTF-8
+Bu paket, Linux'da sistem yÃ¶neticiliÄŸini anlatan rehberi iÃ§erir. LDP
+(Linux Documentation Project) hakkÄ±nda daha fazla bilgi ve olasÄ± sÃ¼rÃ¼m
+deÄŸiÅŸiklikleri iÃ§in http://www.tldp.org/ sayfasÄ±na bakÄ±nÄ±z.
 
 %prep
 %setup -q -n %{name}
