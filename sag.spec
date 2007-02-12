@@ -1,8 +1,8 @@
 Summary:	LDP System Administrator's Guide
-Summary(de.UTF-8):   LDP-System-Administrator-Handbuch
-Summary(fr.UTF-8):   Guide de l'administrateur système du LDP
-Summary(pl.UTF-8):   Podręcznik Administratora Systemu LDP
-Summary(tr.UTF-8):   DP Sistem Yöneticisi Kılavuzu
+Summary(de.UTF-8):	LDP-System-Administrator-Handbuch
+Summary(fr.UTF-8):	Guide de l'administrateur système du LDP
+Summary(pl.UTF-8):	Podręcznik Administratora Systemu LDP
+Summary(tr.UTF-8):	DP Sistem Yöneticisi Kılavuzu
 Name:		sag
 Version:	0.9
 Release:	2
